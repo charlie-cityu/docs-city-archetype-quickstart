@@ -1,9 +1,9 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>uk.ac.city.docs</groupId>
+	<groupId>uk.ac.city.docs.archetypes</groupId>
 	<artifactId>docs-city-archetype-quickstart</artifactId>
-	<version>1.0</version>
+	<version>1.0-SNAPSHOT</version>
 	<name>Archetype - docs-city-archetype-quickstart</name>
 	<description>A variation on the maven-archetype-quickstart with source set to 1.8,
 		build to executable jar with dependencies and junit 4.12. File names have been changed
@@ -11,6 +11,18 @@
 		standard.
 	</description>
 	<url>http://github.com/charliew-city/docs-city-archetype-quickstart</url>
+
+	<distributionManagement>
+		<snapshotRepository>
+			<id>ossrh</id>
+			<url>https://oss.sonatype.org/content/repositories/snapshots</url>
+		</snapshotRepository>
+
+		<repository>
+			<id>ossrh</id>
+			<url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
+		</repository>
+	</distributionManagement>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
