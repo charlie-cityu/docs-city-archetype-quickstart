@@ -12,6 +12,10 @@
 	</description>
 	<url>http://github.com/charliew-city/docs-city-archetype-quickstart</url>
 
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+
 	<licenses>
 		<license>
 			<name>MIT License</name>
