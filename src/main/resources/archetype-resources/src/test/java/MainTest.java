@@ -8,9 +8,8 @@ public class MainTest {
 
 
     /**
-     * Test for Hello, World! print
-     *
-     * Delete after modifying the main method
+     * Test for the construction of Main and the 
+     * main method being called
      *
      */
     @Test
